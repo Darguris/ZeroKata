@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.front {
+    /* width: 100vw;
+    height: 100vh; */
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.headerContainer {
+    font-size: 11vmax;
+    color: white;
+    margin-top: 25vh;
+    font-family: fantasy;
+    text-align: center;
+
+}
+
+.playbtn {
+    font-size: 2rem;
+    padding: 7px 50px;
+    background-color: #6891C3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    border-bottom: 7px solid #a5c5f0;
+
+}
+
+.hide {
+    display: none;
+}
