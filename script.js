@@ -115,7 +115,7 @@ function Scroll() {
   front.classList.add("hide");
   board.classList.remove("hide");
   board.classList.add("visible");
-  // shawAudio.play();
+  shawAudio.play();
 }
 
 
