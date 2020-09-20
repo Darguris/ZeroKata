@@ -22,7 +22,7 @@
         </div>
 
     </section>
-    <div class="board " id="board">
+    <div class="board hide" id="board">
         <div class="cell one" data-cell></div>
         <div class="cell two" data-cell></div>
         <div class="cell three" data-cell></div>
@@ -33,12 +33,26 @@
         <div class="cell eight" data-cell></div>
         <div class="cell nine" data-cell></div>
     </div>
-    <div class="movelist">
+    <div class="popup">
+        <div class="popupcontainer hide">
+            <div class="question">
+                <h2>Question</h2>
+            </div>
+            <div class="answer">
+                <button class="btn">ANS1</button>
+                <button class="btn">ANS2</button>
+                <button class="btn">ANS3</button>
+                <button class="btn">ANS4</button>
+            </div>
+        </div>
     </div>
+    <!-- <div class="movelist">
+    </div> -->
     <div class="winning-message" id="winningMessage">
         <div id="winning-message-text"></div>
         <button id="restartButton">Restart</button>
     </div>
+
 
 
 </body>
